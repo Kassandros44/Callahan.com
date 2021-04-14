@@ -34,7 +34,7 @@ const config = env.getOrElseAll({
     key: ''
   },
   warApi: {
-    liveUrl: 'https://war-service-live-2.foxholeservices.com'
+    liveUrl: 'https://war-service-live.foxholeservices.com'
   },
   discord: {
     token: ''
