@@ -76,7 +76,6 @@ class ModalContainer extends React.Component {
                       </button>
                     </React.Fragment>}
                 </div>
-                <h3>See the sources and provide feedbacks on <a href={"https://gitlab.com/a.couty/fhghq"}>git</a></h3>
                 <div id="inf">
                   <h5>
                     <br/> <p id="crdt">The Steam Authentication process will not gain access to any
@@ -86,8 +85,8 @@ class ModalContainer extends React.Component {
                   <br/>
 
                   <h5>
-                    <br/>Discuss foxhole global hq with <a href={"https://gitlab.com/a.couty"}>Le Rutabaga</a> at <a href="https://discord.gg/bnH8gkxd"><img
-                    src="https://cdn.glitch.com/dd3f06b2-b7d4-4ccc-8675-05897efc4bb5%2Fdisc.png?v=1560206167061"/>https://discord.gg/bnH8gkxd</a>
+                    <br/>Discuss foxhole Warden HQ with Kassandros at <a href="https://discord.gg/82dk"><img
+                    src="https://cdn.glitch.com/dd3f06b2-b7d4-4ccc-8675-05897efc4bb5%2Fdisc.png?v=1560206167061"/>https://discord.gg/82dk</a>
                     (subject to change)
 
 

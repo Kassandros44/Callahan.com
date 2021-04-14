@@ -1,11 +1,14 @@
+
+/*https://cdn.glitch.com/dd3f06b2-b7d4-4ccc-8675-05897efc4bb5%2Fdd3f06b2-b7d4-4ccc-8675-05897efc4bb5_BG_1080.jpg?v=1560453782052*/
 body{
   animation: fadeIn 1s;
-background: url(https://cdn.glitch.com/dd3f06b2-b7d4-4ccc-8675-05897efc4bb5%2Fdd3f06b2-b7d4-4ccc-8675-05897efc4bb5_BG_1080.jpg?v=1560453782052);
+background: url(https://raw.githubusercontent.com/Kassandros44/Assets/master/Backgrounds/Warden_flag_Dark.png);
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   background-position: center center; 
   background-attachment: fixed;
-  background-color: transparent;}
+  background-color: rgba(53, 53, 53, 0.651);
+}
 
 
 .indextable.darkheader{

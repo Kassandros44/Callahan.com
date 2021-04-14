@@ -246,12 +246,6 @@ export class LogiCalc extends React.Component {
               </table>
             </div>
           </div>
-          <div id="logi_image_container">
-            <img
-              id="logi_image"
-              src="https://cdn.glitch.com/84b19724-a86b-4caa-8e69-1e9c973e043f%2Ftabl-min.jpg?v=1568729797701"
-            />
-          </div>
         </div>
       </React.Fragment>
     );

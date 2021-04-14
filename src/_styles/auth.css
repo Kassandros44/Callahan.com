@@ -11,11 +11,11 @@
   background-image:url();
   background-position: center center; 
   }
-
+/*https://cdn.glitch.com/84b19724-a86b-4caa-8e69-1e9c973e043f%2Fdd3f06b2-b7d4-4ccc-8675-05897efc4bb5_dd3f06b2-b7d4-4ccc-8675-05897efc4bb5_BG_1080.jpg?v=1565480198799*/
 body{
-background: url(https://cdn.glitch.com/84b19724-a86b-4caa-8e69-1e9c973e043f%2Fdd3f06b2-b7d4-4ccc-8675-05897efc4bb5_dd3f06b2-b7d4-4ccc-8675-05897efc4bb5_BG_1080.jpg?v=1565480198799);
+background: url(https://raw.githubusercontent.com/Kassandros44/Assets/master/Backgrounds/Warden_flag_Dark.png);
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   background-position: center center; 
   background-attachment: fixed;
    background-color: transparent;
@@ -30,10 +30,12 @@ background: url(https://cdn.glitch.com/84b19724-a86b-4caa-8e69-1e9c973e043f%2Fdd
     opacity:1;
   }
 }
+
+/*https://cdn.glitch.com/84b19724-a86b-4caa-8e69-1e9c973e043f%2Fnbr.png?v=1567258459567*/
 .modal-header{
   animation: fadeIn 2s;
   background-color: transparent;
-    background-image: url(https://cdn.glitch.com/84b19724-a86b-4caa-8e69-1e9c973e043f%2Fnbr.png?v=1567258459567);
+    background-image: url(https://raw.githubusercontent.com/Kassandros44/Assets/master/Images/WHQ_Auth_Banner.png);
   -webkit-filter: drop-shadow(1px 1px 9px black);filter: drop-shadow(1px 1px 9px black);
   background-repeat: no-repeat;
     text-align: center;
