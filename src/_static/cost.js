@@ -55,6 +55,7 @@ var iteminfo= [
 {name:"68mm Shell", i:20, b:120, e:120, t:200, src:'Items/ATAmmoIcon.png'},
 {name:"Bonesaw MK.3", i:5, b:100, r:25, src:'Warden/Items/Heavy Arms/Bonesaw_Icon.png'},
 {name:"Mounted Bonesaw MK.3", i:5, b:200, src:'Warden/Items/Heavy Arms/Mounted_Bonesaw_Icon.png'},
+{name:"A.T.R.P.G. Indirect Shell", i:15, b:60, e:75, t:112, src:'Warden/Items/Heavy Arms/ATRPG_Indirect_shell.png'},
 {name:"Daucus isg.III", i:5, b:150, t:125, src:'Items/InfantrySupportGunItemIcon.png'}
   //{i:, b:, name:"",src:""},
 ],
