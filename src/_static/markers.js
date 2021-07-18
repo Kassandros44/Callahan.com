@@ -7,6 +7,7 @@ const Leaflet_Pulse = require('leaflet-pulse-icon');
 
 const repo = 'https://raw.githubusercontent.com/the-fellowship-of-the-warapi/Assets/master/Map%20Icons/';
 const repo2 = 'https://raw.githubusercontent.com/the-fellowship-of-the-warapi/Assets/master/Item%20Icons/';
+const repo3 = 'https://github.com/Kassandros44/Assets/blob/master/Map%20Icons/';
 const MapIcon = L.Icon.extend({
 	 	options: {
     iconSize: [16, 16],
@@ -96,16 +97,31 @@ const FobIconBase = L.Icon.extend({
     popupAnchor: [0, 0],
   },
 });
-const FobIcon = [[new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase1.png` }), // LVL 0 NEUT
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase1Colonial.png` }), // LVL 0 COL
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase1Warden.png` })], [ // LVL 0 WAR
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase2.png` }), // LVL 1 NEUT
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase2Colonial.png` }), // LVL 1 COL
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase2Warden.png` })], [ // LVL 1 WAR
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase3.png` }), // LVL 2 NEUT
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase3Colonial.png` }), // LVL 2 COL
-  new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase3Warden.png` })]]; // LVL 2 WAR
-
+const FobIcon = [[
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase1.png` }), // LVL 0 NEUT
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase1Colonial.png` }), // LVL 0 COL
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase1Warden.png` })], // LVL 0 WAR
+  [
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase2.png` }), // LVL 1 NEUT
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase2Colonial.png` }), // LVL 1 COL
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase2Warden.png` })], // LVL 1 WAR
+  [
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase3.png` }), // LVL 2 NEUT
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase3Colonial.png` }), // LVL 2 COL
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconForwardBase3Warden.png` })], // LVL 2 WAR 
+  [
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier1.png` }), //BB T1 NEUT
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier1Colonial.png` }), //BB T1 COL
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier1Warden.png` })], //BB T1 WAR 
+  [
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier2.png` }), //BB T2 NEUT
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier2Colonial.png` }), //BB T2 COL
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier2Warden.png` })], //BB T2 WAR 
+  [
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier3.png` }), //BB T3 NEUT
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier3Colonial.png` }), //BB T3 COL
+    new FobIconBase({ iconUrl: `${repo}Bases/MapIconBunkerBaseTier3Warden.png` })], //BB T3 WAR 
+  ];  
 
 const MiscIcon = L.Icon.extend({
 	 	options: {
